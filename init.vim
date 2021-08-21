@@ -1,0 +1,23 @@
+source ~/.config/nvim/plugin.vim
+source ~/.config/nvim/mappings.vim
+syntax on
+filetype plugin indent on
+set encoding=utf-8
+set shortmess+=c
+set updatetime=300
+set completeopt=menuone,noselect,noinsert
+set hidden
+set smartcase
+set ignorecase
+set splitbelow
+set splitright
+set scrolloff=4
+set wildmode=list:longest
+set clipboard=unnamed,unnamedplus
+set number
+set relativenumber
+set cursorline
+set autoindent
+set smartindent
+set shiftwidth=4
+set tabstop=4
